@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
 function App() {
+  const holidaylist =[
+    {location:1,city:'Goa',countries:'India'},
+    {location:2,city:'Amsterdam',countries:'Netherland'},
+    {location:3,city:'New York',countries:'USA'},
+    {location:4,city:'Darjeeling',countries:'India'},
+    {location:5,city:'Tokyo',countries:'Japan'},
+    {location:6,city:'Lonavala',countries:'India'}]
+    
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ol> 
+        { holidaylist.filter((item)=>item.countries === "India" )
+                     .map((item,location) => <li key={`location ${location}`}>{item.city}</li>)}
+      </ol>
+      
     </div>
   );
 }
