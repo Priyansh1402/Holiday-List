@@ -14,7 +14,7 @@ function App() {
     <div>
       <ol> 
         { holidaylist.filter((item)=>item.countries === "India" )
-                     .map((item,location) => <li key={`location ${location}`}>{item.city}</li>)}
+                     .map((item,location) => <li key={location}>{item.city}</li>)}
       </ol>
       
     </div>
