@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Holiday-List/static/css/main.118ebc55.css",
+    "main.js": "/Holiday-List/static/js/main.8efa001b.js",
+    "index.html": "/Holiday-List/index.html",
+    "main.118ebc55.css.map": "/Holiday-List/static/css/main.118ebc55.css.map",
+    "main.8efa001b.js.map": "/Holiday-List/static/js/main.8efa001b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.118ebc55.css",
+    "static/js/main.8efa001b.js"
+  ]
+}
